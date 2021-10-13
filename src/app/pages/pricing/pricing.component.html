@@ -1,66 +1,65 @@
 <div class="container">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Advanced</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Pro</button>
-        </li>
-    </ul>
+    <h2 class="header-text">Pricing</h2>
+
+    <!-- Navigation -->
+    <div class="row justify-content-center">
+        <div class="">
+            <h3>Choose Your Vehicle</h3>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Sedan/Coupe</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">SUV/Truck</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Other</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Content -->
     <div class="tab-content" id="pills-tabContent">
+        <!-- Sedan/Coupe -->
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="row">
-                <h3>Basic</h3>
-                <p>The basic plan covers the following:</p>
-                <ul>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
+            <div class="row align-items-center">
+                <img src="../../../assets/images/small-car.png" class="card-img-top car-img" alt="...">
             </div>
             <div class="row">
-                <div class="col-lg-4 card">
-                    <img src="../../../assets/images/small-car.png" class="card-img-top" alt="...">
+                <div class="col-lg-6 card">
+                    <img src="../../../assets/images/bronze-medal.png" class="card-img-top metal" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Smaller Cars</h5>
+                        <h5 class="card-title">Basic</h5>
                         <p class="card-text">Sedans and coupes fit this category.</p>
-                        <hr/>
+                        <hr />
                         <p class="card-text">Exterior: 50$</p>
-                        <hr/>
+                        <hr />
                         <p class="card-text">Interior: 60$</p>
                     </div>
                 </div>
-                <div class="col-lg-4 card">
-                    <img src="../../../assets/images/large-car.png" class="card-img-top" alt="...">
+                <div class="col-lg-6 card">
+                    <img src="../../../assets/images/gold-medal.png" class="card-img-top metal" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Larger Cars</h5>
+                        <h5 class="card-title">Advanced</h5>
                         <p class="card-text">Larger SUV's and trucks fit this category.
                         </p>
-                        <hr/>
+                        <hr />
                         <p class="card-text">Exterior: 50$</p>
-                        <hr/>
-                        <p class="card-text">Interior: 60$</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 card">
-                    <img src="../../../assets/images/special.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Special</h5>
-                        <p class="card-text">Motorcycles, Boats, Trailers, etc. Contact me directly for a qoute.</p>
-                        <hr/>
-                        <p class="card-text">Exterior: 50$</p>
-                        <hr/>
+                        <hr />
                         <p class="card-text">Interior: 60$</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- SUV/Truck -->
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="card-group">
                 <div class="card">
@@ -101,6 +100,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Other -->
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <div class="card-group">
                 <div class="card">
@@ -141,5 +142,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
