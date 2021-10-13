@@ -1,27 +1,41 @@
-# DetailSite
+# Dallas's Detailing ![badge](https://img.shields.io/badge/license-Open-brightgreen) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/CMPSCjg/CookieCloner)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+## Table of Contents
+    
+* [About](#about)
+* [Local Installation](#local-installation)
+* [Preview](#preview)
+* [Contributing](#contributing)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## About 
+    
+This is a website for my auto detailing business, built using [Angular](https://angular.io/).
+    
+    
+## Local Installation
 
-## Code scaffolding
+Note: All of these commands are to be used from the root directory of the project.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Install node packages
+```
+npm install
+```
+- Start the server
+```
+ng serve
+```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Preview 
 
-## Running unit tests
+### The production build of Dallas's Detailing is available [here](https://detail-site.vercel.app/)!
+#### Desktop View
+![image](https://user-images.githubusercontent.com/77583463/137046465-52ab7bcc-e2c8-4d2e-b763-8587042b6b17.png)
+    
+## Contributing
+    
+Pull requests are welcome, but I encourage issues to be opened should you find bugs or would like to make feature requests.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributors
+- [@okni-c AKA Kevin Dallas Yatsinko](https://github.com/okni-c)
