@@ -29,7 +29,7 @@ ng serve
 
 ## Preview 
 
-### The production build of Dallas's Detailing is available [here](https://detail-site.vercel.app/)!
+### The development build of Dallas's Detailing is available [here](https://detail-site.vercel.app/)!
 #### Desktop View
 ![image](https://user-images.githubusercontent.com/77583463/137046465-52ab7bcc-e2c8-4d2e-b763-8587042b6b17.png)
     
